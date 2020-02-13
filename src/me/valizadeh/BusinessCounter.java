@@ -1,6 +1,6 @@
 package me.valizadeh;
 
-public class BusinessCounter extends BaseCounter<BusinessPassenger> implements Runnable {
+public class BusinessCounter extends BaseCounter<BusinessPassenger> {
 
     public BusinessCounter() {
         informationBooth.setBusinessCounter(this);

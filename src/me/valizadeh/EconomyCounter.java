@@ -1,6 +1,6 @@
 package me.valizadeh;
 
-public class EconomyCounter extends BaseCounter<EconomyPassenger> implements Runnable {
+public class EconomyCounter extends BaseCounter<EconomyPassenger> {
 
     public EconomyCounter() {
         informationBooth.setEconomyCounter(this);

@@ -1,6 +1,6 @@
 package me.valizadeh;
 
-public class FirstClassCounter extends BaseCounter<FirstClassPassenger> implements Runnable {
+public class FirstClassCounter extends BaseCounter<FirstClassPassenger> {
 
     public FirstClassCounter() {
         informationBooth.setFirstClassCounter(this);
